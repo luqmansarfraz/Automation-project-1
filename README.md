@@ -1,4 +1,4 @@
-# Cypress simple tests
+# Cypress simple tests (example)
 Tests written for basic HTML, CSS and JavaScript project. For reporting Allure is configured.
 
 ## Main supported functions
