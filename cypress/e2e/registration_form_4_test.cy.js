@@ -36,12 +36,10 @@ describe('Input fields', () => {
     })
 
     it.only('User cannot submit empty registration form', () => {
-       
         cy.get('.submit_button').should('not.be.enabled');
     })
 
     it('BMW should not be listed in the list of the cars', () => {
-        
         cy.get('#cars').children().should('have.length', 4)
         cy.get('#cars option').first().should('not.have.text', 'BMW')
         cy.get('#cars option').eq(1).should('not.have.text', 'BMW')
